@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+
+.CurTbx {
+  color: #040505;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.kcwcstyle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.kcwcurday {
+  margin: 0;
+}
+
+.kcwcurst {
+  margin: 0 10px 0 5px;
+}
+
+/*Using the css below you can make your style responsive!*/
+
+@media (max-width: 600px) {
+  .kcwcstyle {
+    font-size: 14px;
+  }
+
+  .kcwcurstinf {
+    font-size: 12px;
+  }
+}
+
+.dropmenu {
+  float: right;
+}
+
+.container {
+  margin-top: 50px;
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+  justify-content: center;
+}
